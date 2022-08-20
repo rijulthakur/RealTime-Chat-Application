@@ -3,8 +3,8 @@ let hello;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do{
-    hello=prompt('Please enter your name: ')
-} while(!hello)
+  hello=prompt('Please enter your name: ')
+}while(!hello)
 
 textarea.addEventListener('keyup', (e) => {
     if(e.key === 'Enter') {
@@ -16,7 +16,7 @@ function sendMessage(message) {
     let msg = {
         user: hello,
         message: message.trim()
-    }
+   }
 
     appendMessage(msg, 'outgoing')
 
