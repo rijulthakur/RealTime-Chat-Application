@@ -16,7 +16,7 @@ function sendMessage(message) {
     let msg = {
         user: hello,
         message: message.trim()
-   }
+}
 
     appendMessage(msg, 'outgoing')
 
