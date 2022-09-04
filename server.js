@@ -7,7 +7,6 @@ http.listen(PORT, ()=> {
     console.log(`Listening on port ${PORT}`)
 })
 
-
 app.use(express.static(__dirname + '/public'))
 
 
